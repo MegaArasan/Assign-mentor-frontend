@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
+.notfounded {
+  height: 88vh;
+  width: 100%;
+  object-fit: cover;
+}
+.addstudent {
+  padding: 20px;
+}
+.assignmentor {
+  padding: 20px;
+}
+.updatementor {
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homepage {
+  background-image: linear-gradient(
+    to right top,
+    #794a97,
+    #9f458f,
+    #bd437f,
+    #d3476b,
+    #df5554,
+    #e75651,
+    #ef574e,
+    #f6584b,
+    #ff4263,
+    #ff2b80,
+    #ff1ca2,
+    #f228c6
+  );
+  height: 100vh;
+  color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: column wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-content: center;
 }
